@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook} from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaYoutube} from 'react-icons/fa';
 
 export default function Footer () {
   return (
@@ -49,12 +53,10 @@ export default function Footer () {
           </ul>
           <ul className="text-left">
             <p className="text-black py-2 font-medium">Follow us</p>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li className="flex items-center gap-2 py-2"><FaInstagram />Instagram</li>
+            <li className="flex items-center gap-2 py-2"><FaFacebook />Facebook</li>
+            <li className="flex items-center gap-2 py-2"><FaYoutube />YouTube</li>
+            <li className="flex items-center gap-2 py-2"><FaLinkedin />Linkedin</li>
           </ul>
         </div>
         <div className="flex justify-between w-3/4 p-20 mx-auto">
